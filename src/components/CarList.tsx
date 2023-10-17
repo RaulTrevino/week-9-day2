@@ -1,6 +1,6 @@
 import React from 'react';
 import CarCard from './CarCard';
-
+//list of these thats y we put []  define 
 interface CarListProps {
   cars: {
     id: number;
