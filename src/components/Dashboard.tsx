@@ -1,7 +1,7 @@
 import React from 'react';
 import CarList from './CarList';
 
-const Dashboard: React.FC = () => {
+export const Dashboard: React.FC = () => {
   const cars = [
     {
       id: 1,

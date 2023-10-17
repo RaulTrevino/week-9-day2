@@ -1,9 +1,24 @@
 // import { useState } from 'react'
+import { BrowserRouter, } from 'react-router-dom';
+import Container from 'react-bootstrap/Container';
+import {CarCard} from './components/CarCard';
+import {Dashboard} from './components/Dashboard';
+import {CarList} from './components/CarList';
 
-// import './App.css'
 
 function App() {
-return''
+return(
+    <Container>
+        <BrowserRouter>
+            <CarCard/>
+            <Dashboard/>
+            <CarList/>
+        
+        
+    
+        </BrowserRouter>
+    </Container>
+)
 
 }
 
